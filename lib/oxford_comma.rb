@@ -8,7 +8,7 @@ def oxford_comma(array)
     for i in (0...array.length-1)
       new_array.push(array[i])
     end
-    new_array.push("and #{array[array.length]}")
+    new_array.push("and #{array[array.length-1]}")
     return new_array.join(', ')
   end
 end
